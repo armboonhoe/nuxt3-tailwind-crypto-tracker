@@ -19,7 +19,7 @@
                                             {{ coin.name }}
                                         </h2>
                                         <p class="text-sm text-gray-500">
-                                            Price: ${{ coin.price }}
+                                            Price: ${{ parseFloat(coin.price).toLocaleString() }}
                                         </p>
                                     </div>
                                 </div>
